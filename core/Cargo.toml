@@ -1,0 +1,12 @@
+[package]
+name = "tasker-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Core models and SQLite storage for tasker"
+
+[dependencies]
+chrono.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
